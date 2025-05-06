@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 2px;
+}
+span{
+    color:peachpuff;
+}
+.body{
+    margin: 20px;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+nav{
+    padding: 10px;
+    text-align: right;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px; /* Add padding around the header */
+    margin-bottom: 20px; /* Add margin below the header */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header h3 {
+    margin: 0;
+    padding: 5px 10px; /* Add padding around the heading */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Increase spacing between navigation links */
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 10px; /* Add padding around each link */
+    transition: background-color 0.3s ease; /* Add a hover effect */
+}
+
+header nav ul a:hover {
+    background-color: #3582cf; /* Change background color on hover */
+    border-radius: 5px; /* Add rounded corners */
+}
+.hero-image {
+    flex: 1;
+    text-align: left; /* Align the image to the right */
+}
+
+.hero-image img {
+    max-width: 100%; /* Ensure the image scales properly */
+    height: auto;
+}
+
+.main-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Add padding around the section */
+}
+
+.main-text {
+    flex: 1;
+    text-align: center; /* Align the text to the left */
+    padding: 20px; /* Add padding around the text */
+    font-size: 30px;
+    text-align: center;
+}
+.main-title{
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+}
+.main-subtitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: darkblue;
+}
+
+.main-button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center-align the button and image */
+    gap: 10px; /* Add spacing between the button and the image */
+    margin-top: 20px; /* Add some margin above the button */
+}
+
+.main-button button {
+    background-color: #3582cf; /* Set a professional blue background */
+    color: white; /* Set text color to white */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 10px 20px; /* Add padding for a larger button */
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add a hover effect */
+    
+}
+
+.main-button button:hover {
+    background-color: #2c6bb2; /* Darken the button on hover */
+    transition: 0.2s;;
+}
+
+.main-button img {
+    width: 30px; /* Set a fixed width for the icon */
+    height: auto; /* Maintain aspect ratio */
+    border: none; /* Remove any border */
+    outline: none; /* Remove any outline */
+    background-color: transparent; /* Ensure the background is transparent */
+}
+h3{
+    font-size: 30px;
+}
+
+body {
+    background: linear-gradient(to left, peachpuff, white); /* Add gradient from white to peach */
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
